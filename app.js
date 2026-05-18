@@ -75,7 +75,20 @@ let finalMarks = marks + extra;
 console.log(finalMarks);
 
 //Example 10
-let mangos = 10;
+let mangoes = 10;
 let persosns = 2;
-let result = mangos / persosns;
+let result = mangoes / persosns;
 console.log(result);
+
+//Exampe 11
+let tea = 2;
+let biscuits = 5;
+console.log(tea + biscuits);
+console.log(tea - biscuits);
+console.log(tea * biscuits);
+
+//Exampe 12
+let total1 = 10;
+let user = 3;
+console.log(total1 / user);
+console.log(total1 % user);
