@@ -479,3 +479,10 @@ if(bankBalance === false || couponApplied === true){
 else{
     console.log("Payment Failed");
 }
+
+//Loops
+
+for (let i = 0; i < 10; i++){
+    console.log("Saqib Islam");
+    
+}
