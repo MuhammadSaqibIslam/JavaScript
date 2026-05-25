@@ -24,5 +24,3 @@ using for loop.
 for ( let i = 10; i >= 6; i--){
     console.log(i); 
 }
-
-/*
