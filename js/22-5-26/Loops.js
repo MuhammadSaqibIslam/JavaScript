@@ -26,12 +26,3 @@ for ( let i = 10; i >= 6; i--){
 }
 
 /*
-3️⃣ Even Numbers
-
-Print:
-
-2, 4, 6, 8, 10
-
-using for loop.
-
-*/
