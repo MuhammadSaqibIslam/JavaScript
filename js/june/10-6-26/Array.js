@@ -23,7 +23,7 @@ let population = [13000000, 18000000, 1200000];
 */
 let cityName = ["Lahore", "Karachi", "Islamabad"];
 let population = [130000, 180000, 120000];
-for (let i = 0; i < 3; i++);
+for (let i = 0; i < 3; i++)
 console.log(`${cityName[i]} has population ${population[i]}`);
 
 
