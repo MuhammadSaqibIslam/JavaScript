@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+#lightImg {
+    width: 100px;
+    float: right;
+    display: none;
+}
+
+#darkImg {
+    width: 100px;
+    float: right;
+    cursor: pointer;
+}
