@@ -24,7 +24,8 @@ chal1.setAttribute('src', 'https://picsum.photos/seed/beach/400/200');
 // =====================
 
 // YAHAN CODE LIKHO:
-
+let chal2 = document.getElementById('img-2')
+chal2.setAttribute('alt', 'Beautiful Sunset');
 
 // Hint: document.getElementById('img-2').setAttribute('alt', 'Beautiful Sunset');
 
@@ -36,7 +37,9 @@ chal1.setAttribute('src', 'https://picsum.photos/seed/beach/400/200');
 // =====================
 
 // YAHAN CODE LIKHO:
-
+let chal3 = document.getElementById('link-1')
+chal3.setAttribute('href', 'https://youtube.com');
+chal3.textContent = 'YouTube'
 
 // Hint: let link = document.getElementById('link-1');
 //       link.setAttribute('href', 'https://youtube.com');
@@ -49,7 +52,8 @@ chal1.setAttribute('src', 'https://picsum.photos/seed/beach/400/200');
 // =====================
 
 // YAHAN CODE LIKHO:
-
+let chal4 = document.getElementById('input-1')
+chal4.setAttribute('placeholder', 'Muhammad Saqib')
 
 // Hint: document.getElementById('input-1').setAttribute('placeholder', 'Apna naam likho...');
 
@@ -61,7 +65,8 @@ chal1.setAttribute('src', 'https://picsum.photos/seed/beach/400/200');
 // =====================
 
 // YAHAN CODE LIKHO:
-
+let chal5 = document.getElementById('btn-1')
+chal5.setAttribute('disabled', 'true')
 
 // Hint: document.getElementById('btn-1').setAttribute('disabled', 'true');
 
@@ -73,7 +78,8 @@ chal1.setAttribute('src', 'https://picsum.photos/seed/beach/400/200');
 // =====================
 
 // YAHAN CODE LIKHO:
-
+let chal6 = document.getElementById('input-2')
+chal6.setAttribute('type', 'password')
 
 // Hint: document.getElementById('input-2').setAttribute('type', 'password');
 
@@ -85,7 +91,8 @@ chal1.setAttribute('src', 'https://picsum.photos/seed/beach/400/200');
 // =====================
 
 // YAHAN CODE LIKHO:
-
+let chal7 = document.getElementById('box-1')
+chal7.classList.add('active')
 
 // Hint: document.getElementById('box-1').classList.add('active');
 
