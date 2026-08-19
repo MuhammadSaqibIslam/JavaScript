@@ -11,7 +11,8 @@
 // =====================
 
 // YAHAN CODE LIKHO:
-
+let chal1 = document.getElementById('img-1')
+chal1.setAttribute('src', 'https://picsum.photos/seed/beach/400/200');
 
 // Hint: document.getElementById('img-1').setAttribute('src', 'https://picsum.photos/seed/beach/400/200');
 
