@@ -78,7 +78,7 @@ body {
     cursor: not-allowed;
 }
 
-.toggle-box {
+.mybox {
     padding: 16px;
     background: #f9fafb;
     border-radius: 8px;
@@ -87,7 +87,7 @@ body {
     transition: all 0.3s;
 }
 
-.toggle-box.active {
+.mybox.active {
     background: #fee2e2;
     border: 2px solid #dc2626;
     font-weight: 700;

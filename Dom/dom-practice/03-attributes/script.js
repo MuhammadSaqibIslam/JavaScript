@@ -85,49 +85,55 @@ chal6.setAttribute('type', 'password')
 
 
 // =====================
-// Challenge 7: classList - class Add
-// "box-1" par "active" class add karo
-// classList.add use karo
-// =====================
-
-// YAHAN CODE LIKHO:
-let chal7 = document.getElementById('box-1')
-chal7.classList.add('active')
-
-// Hint: document.getElementById('box-1').classList.add('active');
-
-
-// =====================
-// Challenge 8: id Change
-// "old-id" element ka id change karo "new-id"
-// =====================
-
-// YAHAN CODE LIKHO:
-
-
-// Hint: document.getElementById('old-id').id = 'new-id';
-
-
-// =====================
-// Challenge 9: Custom data Attribute
-// "data-box" par data-color="blue" set karo
+// Challenge 7: setAttribute - src Change
+// "img-3" ka src change karo "https://picsum.photos/seed/mountain/400/200"
 // setAttribute use karo
 // =====================
 
 // YAHAN CODE LIKHO:
+let chal7 = document.getElementById('img-3')
+chal7.setAttribute('src', 'https://picsum.photos/seed/mountain/400/200');
 
-
-// Hint: document.getElementById('data-box').setAttribute('data-color', 'blue');
+// Hint: document.getElementById('img-3').setAttribute('src', 'https://picsum.photos/seed/mountain/400/200');
 
 
 // =====================
-// Challenge 10: getAttribute
-// "link-2" ka href getAttribute se lo
-// Aur "link-info" ke text mein dikhao
+// Challenge 8: setAttribute - value Change
+// "input-3" ki value change karo "Hello Pakistan"
+// setAttribute use karo
 // =====================
 
 // YAHAN CODE LIKHO:
+let chal8 = document.getElementById('input-3')
+chal8.setAttribute('value', 'Hello Pakistan')
+
+// Hint: document.getElementById('input-3').setAttribute('value', 'Hello Pakistan');
 
 
-// Hint: let href = document.getElementById('link-2').getAttribute('href');
-//       document.getElementById('link-info').textContent = 'Link: ' + href;
+// =====================
+// Challenge 9: setAttribute - href Change
+// "link-3" ka href change karo "https://facebook.com"
+// Aur text bhi "Facebook" karo
+// =====================
+
+// YAHAN CODE LIKHO:
+let chal9 = document.getElementById('link-3')
+chal9.setAttribute('href', 'https://facebook.com');
+chal9.textContent = 'Facebook'
+
+// Hint: let link3 = document.getElementById('link-3');
+//       link3.setAttribute('href', 'https://facebook.com');
+//       link3.textContent = 'Facebook';
+
+
+// =====================
+// Challenge 10: removeAttribute
+// "btn-1" se disabled attribute hata do
+// removeAttribute use karo
+// =====================
+
+// YAHAN CODE LIKHO:
+let chal10 = document.getElementById('btn-1')
+chal10.removeAttribute('disabled')
+
+// Hint: document.getElementById('btn-1').removeAttribute('disabled');

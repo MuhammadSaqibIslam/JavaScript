@@ -41,8 +41,7 @@ chal2.style.backgroundColor = 'lightgreen'
 // YAHAN CODE LIKHO:
 
 let chal3 = document.getElementById ('style-me-2')
-chal3.style.color = 'white'
-chal3.style.backgroundColor = '#334155'
+chal3.style.color = 'red'
 
 // Hint: document.getElementById('style-me-2').style.color = 'white';
 
